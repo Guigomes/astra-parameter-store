@@ -16,5 +16,23 @@
     "http-pool-route": "20",
     "http-response-timeout": "30",
     "http-request-timeout": "60"
+  },
+ "acct-management-java": {
+    "spring.aws.rds.enable-config": "true",
+    "spring.aws.rds.database-name": "ACCT",
+    "spring.datasource.hikari.connection-timeout": 30000,
+    "spring.datasource.hikari.maximum-pool-size": 10,
+    "spring.datasource.hikari.minimum-idle": 1,
+    "spring.datasource.hikari.idle-timeout": 600000,
+    "spring.datasource.hikari.max-lifetime": 1800000,
+    "spring.datasource.hikari.pool-name": "acct-management-java",
+    "spring.aws.secretsmanager.secretName": "astrapay-rds-pixc-prd",    
+    "threads-max-pool-size": "50",
+    "threads-core-pool-size": "20",
+    "threads-queue-capacity": "500",
+    "http-pool-total": "50",
+    "http-pool-route": "20",
+    "http-response-timeout": "30",
+    "http-request-timeout": "60"
   }
 }
