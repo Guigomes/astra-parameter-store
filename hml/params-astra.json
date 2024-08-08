@@ -1,0 +1,13 @@
+{
+    "management.endpoint.health.group.custom.include": "diskSpace,ping",
+    "management.endpoint.health.group.custom.show-components": "always",
+    "management.endpoint.health.group.custom.show-details": "always",
+    "management.endpoints.web.exposure.include": "health,info,metrics",
+    "management.endpoint.health.show-details": "always",
+    "keycloak.ssl-required": "none",
+    "keycloak.cors": true,
+    "management.endpoint.prometheus.enabled": true,
+    "spring.security.oauth2.resourceserver.jwt.issuer-uri": "https://keycloak-hml.astrapay.com.br/auth/realms/external-customers",
+    "jwt.issuers-external-customers": "https://keycloak-hml.astrapay.com.br/auth/realms/external-customers",
+    "jwt.issuers-master": "https://keycloak-hml.astrapay.com.br/auth/realms/master"
+  }

@@ -1,0 +1,4 @@
+{
+"chge-reader-management-java.url":"http://chge-reader-management-java.chge-hml.svc.cluster.local:8080/v1",
+"chge-writer-management-java.url":"http://chge-writer-management-java.chge-hml.svc.cluster.local:8080/v1"
+}

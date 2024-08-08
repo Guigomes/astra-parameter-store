@@ -1,0 +1,6 @@
+{
+  "pixc-charge-api-java.url": "http://pixc-charge-api-java.pixc-hml.svc.cluster.local:8080/v1",
+  "pixc-interface-btg-java.url": "http://pixc-interface-btg-java.pixc-hml.svc.cluster.local:8080/v1",
+  "pixc-interface-sulcredi-java.url": "http://pixc-interface-sulcredi-java.pixc-hml.svc.cluster.local:8080/v1",
+  "pixc-interface-bb-java.url": "http://pixc-interface-bb-java.pixc-hml.svc.cluster.local:8080/v1"
+}
