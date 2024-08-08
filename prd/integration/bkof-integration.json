@@ -1,4 +1,4 @@
 {
-    "bkof-select-partner-bank-api-java.url": "http://bkof-select-partner-bank-api-java.bkof-hml.svc.cluster.local:8080/v1",
-    "bkof-settings-api-java.url": "http://bkof-settings-api-java.bkof-hml.svc.cluster.local:8080/v1"
+    "bkof-select-partner-bank-api-java.url": "http://bkof-select-partner-bank-api-java.bkof.svc.cluster.local:8080/v1",
+    "bkof-settings-api-java.url": "http://bkof-settings-api-java.bkof.svc.cluster.local:8080/v1"
   }

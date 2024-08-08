@@ -1,13 +1,13 @@
 {
-    "pixc-charge-api-java": {     
-      "spring.aws.rds.enable-config": "true",
-      "spring.aws.rds.database-name": "PIXC",
-      "spring.datasource.hikari.connection-timeout": 30000,
-      "spring.datasource.hikari.maximum-pool-size": 10,
-      "spring.datasource.hikari.minimum-idle": 5,
-      "spring.datasource.hikari.idle-timeout": 600000,
-      "spring.datasource.hikari.max-lifetime": 1800000,
-      "spring.datasource.hikari.pool-name": "pixc-charge-api-java",
-      "spring.aws.secretsmanager.secretName": "astrapay-rds-db"
-    }
+  "pixc-charge-api-java": {     
+    "spring.aws.rds.enable-config": "true",
+    "spring.aws.rds.database-name": "PIXC",
+    "spring.datasource.hikari.connection-timeout": 30000,
+    "spring.datasource.hikari.maximum-pool-size": 30,
+    "spring.datasource.hikari.minimum-idle": 10,
+    "spring.datasource.hikari.idle-timeout": 600000,
+    "spring.datasource.hikari.max-lifetime": 1800000,
+    "spring.datasource.hikari.pool-name": "pixc-charge-api-java",
+    "spring.aws.secretsmanager.secretName": "astrapay-rds-pixc-prd"
   }
+}
