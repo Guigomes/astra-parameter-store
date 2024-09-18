@@ -1,4 +1,25 @@
 {
+  "geral": {
+    "threads-max-pool-size": "100",
+    "threads-core-pool-size": "60",
+    "threads-queue-capacity": "500",
+    "http-pool-total": "100",
+    "http-pool-route": "50",
+    "http-response-timeout": "30",
+    "http-request-timeout": "60",
+    "spring.aws.rds.enable-config": "true",
+    "spring.aws.rds.database-name": "CHGE",
+    "spring.datasource.hikari.connection-timeout": 30000,
+    "spring.datasource.hikari.maximum-pool-size": 10,
+    "spring.datasource.hikari.minimum-idle": 1,
+    "spring.datasource.hikari.idle-timeout": 600000,
+    "spring.datasource.hikari.max-lifetime": 1800000,
+    "spring.datasource.hikari.pool-name": "[appName]",
+    "spring.aws.secretsmanager.secretName": "astrapay-rds-db"
+  },
+  "chge-reader-management-java": {
+    "spring.datasource.hikari.minimum-idle": 5
+  },
   "chge-writer-management-java": {
     "redis.pool.max-total": "50",
     "redis.pool.max-idle": "20",
